@@ -1,5 +1,9 @@
 # mt7610u_wifi_sta_v3002_dpo_20130916
+
+This fork contains settings for cross compiling a Raspberry PI/Pi2 driver.
+
 Modified usb wifi driver for TP-Link TL-WDN5200 AC600 T2U and Cisco Linksys AE6000 / AC580 on Linux. 
+1. Modified Makefile and config.mk (PLATFORM = RASP)
 1. modified:   common/rtusb_dev_id.c 
  * add product id for TL-WDN5200
  * add product id for Cisco Linksys AE6000 / AC580
