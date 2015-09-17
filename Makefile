@@ -107,9 +107,10 @@ export MODULE
 endif
 
 ifeq ($(PLATFORM),RASP)
-LINUX_SRC = ~/raspi_cross/kernel
-CROSS_COMPILE = ~/raspi_cross/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-
-CROSS_COMPILE_INCLUDE = ~/raspi_cross/mt7610u_wifi_sta_v3002_dpo_20130916/include
+#Set by compile script
+#LINUX_SRC = ~/raspi_cross/kernel
+#CROSS_COMPILE = ~/raspi_cross/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-
+#CROSS_COMPILE_INCLUDE = ~/raspi_cross/mt7610u_wifi_sta_v3002_dpo_20130916/include
 
 # /home/snowpin/armutils_2.5.120.1/toolchain/lib/gcc-lib/arm-elf/2.95.3
 endif
