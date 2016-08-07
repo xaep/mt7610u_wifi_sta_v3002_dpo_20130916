@@ -36,6 +36,7 @@
 /* module table */
 USB_DEVICE_ID rtusb_dev_id[] = {
 #ifdef MT76x0
+        {USB_DEVICE(0x2357,0X0105)}, /* TP-LINK Archer T1U */
 	{USB_DEVICE(0x148F,0x7610)}, /* MT7610U Ralink VID */
 	{USB_DEVICE(0x0E8D,0x7610)}, /* MT7610U MediaTek VID / Sabrent NTWLAC */
 	{USB_DEVICE(0x13B1,0x003E)}, /* Cisco Linksys AE6000 */
